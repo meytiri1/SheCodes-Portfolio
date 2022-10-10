@@ -63,6 +63,11 @@ p {
   text-transform: capitalize;
 }
 
+.primary-link:hover {
+  color: #fff;
+  background-color: #5f58dc;
+}
+
 .secondary-link {
   border: 1px solid var(--primary-color);
   border-radius: 4px;
@@ -70,6 +75,11 @@ p {
   padding: 20px 15px;
   text-decoration: none;
   text-transform: capitalize;
+}
+
+.secondary-link:hover {
+  color: var(--primary-color);
+  background-color: #f5f2fe;
 }
 
 .about-paragraph p {
@@ -107,7 +117,7 @@ p {
 
   a.launch-button {
     display: block;
-    margin: 0 auto;
+    margin: 0 20px;
     text-align: center;
   }
 }
